@@ -1,0 +1,29 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/CLJ-identity",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "CLJ-identity",
+        "TenantId": "812d957c-80a8-4478-a238-3b4568a4d66b",
+        "DisplayName": "CLJ-identity",
+        "UpdatedTime": "2021-01-17T14:36:08.8596125Z",
+        "UpdatedBy": "7df5986e-e78d-40a7-b89a-32e1fb37a2f2",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/CLJ-platform",
+        "ParentName": "CLJ-platform",
+        "ParentDisplayName": "CLJ-platform",
+        "Children": [
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/13f2f283-3260-4a74-9592-125420ba9ca7",
+            "Name": "13f2f283-3260-4a74-9592-125420ba9ca7",
+            "DisplayName": "CLJ-003",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}
