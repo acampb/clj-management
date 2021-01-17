@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/20f31ef2-6295-4711-a784-3edcc9fc87ff",
+        "Name": "20f31ef2-6295-4711-a784-3edcc9fc87ff",
+        "DisplayName": "CLJ-002",
+        "Children": null
+      }
+    }
+  }
+}

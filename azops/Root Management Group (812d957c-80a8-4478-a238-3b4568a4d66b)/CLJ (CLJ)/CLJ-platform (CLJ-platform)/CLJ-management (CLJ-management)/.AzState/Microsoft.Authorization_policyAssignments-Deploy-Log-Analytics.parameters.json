@@ -1,0 +1,52 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "83146890-7584-43b4-a385-ec97f78603ef",
+          "tenantId": "812d957c-80a8-4478-a238-3b4568a4d66b",
+          "type": "SystemAssigned"
+        },
+        "Location": "eastus",
+        "Name": "Deploy-Log-Analytics",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/CLJ-management/providers/Microsoft.Authorization/policyAssignments/Deploy-Log-Analytics",
+        "Properties": {
+          "Description": "Deploy-Log-Analytics",
+          "DisplayName": "Deploy-Log-Analytics",
+          "NotScopes": null,
+          "Parameters": {
+            "automationAccountName": {
+              "value": "CLJ-a-e700ddfb-2593-466b-aab2-99a21373894e"
+            },
+            "automationRegion": {
+              "value": "eastus"
+            },
+            "retentionInDays": {
+              "value": "30"
+            },
+            "rgName": {
+              "value": "CLJ-mgmt"
+            },
+            "workspaceName": {
+              "value": "CLJ-la-e700ddfb-2593-466b-aab2-99a21373894e"
+            },
+            "workspaceRegion": {
+              "value": "eastus"
+            }
+          },
+          "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/CLJ/providers/Microsoft.Authorization/policyDefinitions/Deploy-Log-Analytics",
+          "Scope": "/providers/Microsoft.Management/managementGroups/CLJ-management"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/CLJ-management/providers/Microsoft.Authorization/policyAssignments/Deploy-Log-Analytics",
+        "ResourceName": "Deploy-Log-Analytics",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

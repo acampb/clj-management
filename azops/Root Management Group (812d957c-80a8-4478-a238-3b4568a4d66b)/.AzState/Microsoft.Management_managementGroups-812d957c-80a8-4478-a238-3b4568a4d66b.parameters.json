@@ -1,0 +1,29 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/812d957c-80a8-4478-a238-3b4568a4d66b",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "812d957c-80a8-4478-a238-3b4568a4d66b",
+        "TenantId": "812d957c-80a8-4478-a238-3b4568a4d66b",
+        "DisplayName": "Root Management Group",
+        "UpdatedTime": "2021-01-16T16:10:19.7836504Z",
+        "UpdatedBy": "7df5986e-e78d-40a7-b89a-32e1fb37a2f2",
+        "ParentId": null,
+        "ParentName": null,
+        "ParentDisplayName": null,
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/CLJ",
+            "Name": "CLJ",
+            "DisplayName": "CLJ",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}
