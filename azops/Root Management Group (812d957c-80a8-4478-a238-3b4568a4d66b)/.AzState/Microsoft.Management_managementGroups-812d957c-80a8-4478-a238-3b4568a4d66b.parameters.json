@@ -16,10 +16,24 @@
         "ParentDisplayName": null,
         "Children": [
           {
-            "Type": "/providers/Microsoft.Management/managementGroups",
-            "Id": "/providers/Microsoft.Management/managementGroups/CLJ",
-            "Name": "CLJ",
-            "DisplayName": "CLJ",
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/e700ddfb-2593-466b-aab2-99a21373894e",
+            "Name": "e700ddfb-2593-466b-aab2-99a21373894e",
+            "DisplayName": "CLJ-001",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/20f31ef2-6295-4711-a784-3edcc9fc87ff",
+            "Name": "20f31ef2-6295-4711-a784-3edcc9fc87ff",
+            "DisplayName": "CLJ-002",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/13f2f283-3260-4a74-9592-125420ba9ca7",
+            "Name": "13f2f283-3260-4a74-9592-125420ba9ca7",
+            "DisplayName": "CLJ-003",
             "Children": null
           }
         ]
